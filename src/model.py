@@ -79,7 +79,7 @@ def build_pipeline():
     ])
 
 
-@st.cache_resource(show_spinner="Training the Random Forest pipeline. This may take a moment...")
+@st.cache_resource(show_spinner="Training the Random Forest.")
 def train_model(data_path: str):
     from src.data import load_dataset
 
